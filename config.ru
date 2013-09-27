@@ -1,5 +1,5 @@
 use Rack::Static,
-  :urls => ["/css", "/js", "/images"],
+  :urls => ["/css", "/js", "/images", "/etc"],
   :root => "."
 
 run Proc.new { |env|
